@@ -3,42 +3,51 @@ const router = expess.Router();
 
 const proyekData = [
   {
-    title: "aaaa",
-      description: "aaa",
+    title: "Hemo Life",
+      description: "HemoLife : A Digital Blood Donation App That Makes It Easy and Convenient HemoLife is a digital blood donation app that makes it easy for you to find blood donors, find blood donation schedules, and volunteer Blood Donors.",
+      role: "Web Developer",
+      type: "Collaboration",
       startDate: "0111-11-11",
       endDate: "0001-11-11",
-      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co/p3s01cP/iphone15.jpg",
+      image: "https://ibb.co.com/QfvG4kn",
       technologies: [
-        "Java",
-        "Script"
+        "JavaScript",
+        "Botstrap",
+        "WebPack",
+        "Chart.Js",
+        "PDF.js"
       ],
       repositoryLink: "http://localhost:3000/add-job",
       demoLink: "http://localhost:3000/add-job",
-      role: "dddd",
-      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
       highlights: [
-        "ww",
-        "ww"
+        "Find Blood Donors",
+        "Find Blood Donation Schedules",
+        "Become a volunteer Blood Donors",
       ],
     _id: 1
     },
     {
-      title: "web",
-      description: "ss",
+      title: "Dashboard Data Analytics",
+      description: "Website Analytics adalah sebuah website yang dimana membantu untuk mengalanisa data yang di dapatatkan dari sesnor ph dan nh3, website ini merupakan website dashboard IoT",
+      type: "Individual",
       startDate: "2024-06-10",
       endDate: "2024-06-18",
       image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
       image: "https://i.ibb.co/p3s01cP/iphone15.jpg",
       technologies: [
-        "Java",
-        "Script"
+        "Reac.js",
+        "Tailwincss",
+        "TaypeScript",
+        "Apex Chart"
       ],
       repositoryLink: "http://localhost:3000/add-job",
     demoLink: "http://localhost:3000/add-job",
-      role: "dddd",
+      role: "Web Developer",
       highlights: [
-        "eee"
+        "Dashboard Analytics",
+        "Filter Data With Date and Type",
+        "Download Data",
+        ""
       ],
       _id:  2
     },
@@ -74,6 +83,16 @@ router.get("/proyek/:id", (req, res) => {
     return res.status(404).json({ message: "Single Phone data was not found" });
   }
   res.json(singlePhone);
+});
+
+router.post("/", (req, res) => {
+  const newProyek = req.body;
+
+  // Menambahkan proyek baru ke dalam array proyekData
+  proyekData.push(newProyek);
+
+  // Mengirim respons yang menunjukkan proyek baru telah ditambahkan
+  res.status(201).json({ message: "Proyek added successfully", proyek: newProyek });
 });
 
 module.exports = router;
