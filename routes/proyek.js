@@ -9,7 +9,7 @@ const proyekData = [
       type: "Collaboration",
       startDate: "0111-11-11",
       endDate: "0001-11-11",
-      image: "https://ibb.co.com/QfvG4kn",
+      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
       technologies: [
         "JavaScript",
         "Botstrap",
@@ -33,7 +33,7 @@ const proyekData = [
       startDate: "2024-06-10",
       endDate: "2024-06-18",
       image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co/p3s01cP/iphone15.jpg",
+      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
       technologies: [
         "Reac.js",
         "Tailwincss",
@@ -57,7 +57,7 @@ const proyekData = [
       startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co/p3s01cP/iphone15.jpg",
+      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
       technologies: [
         "Java",
         "Script"
