@@ -41,7 +41,7 @@ const certificatesData = [
 ];
 
 router.get("/certificate", (req, res) => {
-  res.send(singleSertificate);
+  res.send(certificatesData);
 });
 
 
