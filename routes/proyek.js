@@ -122,29 +122,7 @@ const proyekData = [
       ],
       _id:  5
     },
-    {
-      title: "Coffe Senja",
-      description: "Merupakan sebuah website yang menampilkan list product coffe, dan berbagai macan menu coffe",
-       startDate: "0044-04-04",
-      endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
-      technologies: [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "WebPack",
-      ],
-      repositoryLink: "https://github.com/DiyawanDawan/CoffeSenja.git",
-      demoLink: "https://app.netlify.com/sites/coffesenja/",
-      role: "Web Developer",
-      highlights: [
-        "Home",
-        "Product",
-        "Countact",
-        "Manu",
-      ],
-      _id:  6
-    },
+ 
     {
       title: "Restourant",
       description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
@@ -172,8 +150,8 @@ const proyekData = [
       _id:  6
     },
     {
-      title: "Restourant",
-      description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
+      title: "Muvie",
+      description: "Website restourant merupakan sebuah website yang menampilan beberapa list muvie dengn beberapa fitur seperti like muvie dan push notfikasi",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
@@ -190,10 +168,12 @@ const proyekData = [
       demoLink: "https://muvieslove.netlify.app/",
       role: "Web Developer",
       highlights: [
-        "Explore Restourant",
-        "Favorit",
-        "Countact",
+        "List Muvie",
+        "Upcaming",
+        "Top Rated",
         "Detail",
+        "Notofikasi",
+        "Progresive Web Apps (PWA)",
       ],
       _id:  6
     },
