@@ -52,25 +52,151 @@ const proyekData = [
       _id:  2
     },
     {
-      title: "ss",
-      description: "ss",
+      title: "Cynema",
+      description: "Cynema merupakan sebuah proyek yang menampilkan list film dan acara TV, adapun data yangh di gunakan adalah open api dari omdb, website ini ada dua versi, yatu v1 menggunakan vanila javascript",
       startDate: "0044-04-04",
       endDate: "0004-04-04",
-      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
+      image: "https://i.ibb.co.com/0Y9WGyV/Technology-Pitch-Deck.png",
       technologies: [
-        "Java",
-        "Script"
+        "JavaScript",
+        "React.js",
+        "Tailwincss",
       ],
-      repositoryLink: "http://localhost:3000/add-job",
-      demoLink: "http://localhost:3000/add-job",
-      role: "dd",
+      repositoryLink: "https://github.com/DiyawanDawan/sinema.git",
+      demoLink: "https://cinemasfilm.netlify.app/",
+      role: "Web Developer",
       highlights: [
-        "4",
-        ""
+        "List Film",
+        "List TV",
+        "Upcaming",
+        "Top Rated",
+        "Discover TV",
+        "Recomendation",
+        "Detail",
+        "PlayNow",
+        "Seris",
       ],
       _id:  3
-    }
+    },
+    {
+      title: "TOTO LIST",
+      description: "Todo list adalah sebuah website catetean sederhana yang dapat menyimpan list TODO di local storage browser ",
+      startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/1vR4VXv/Brown-Simple-Digital-Marketing-Presentation.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Todo-Apps.git",
+      demoLink: "https://manajmentime.netlify.app/",
+      role: "Web Developer",
+      highlights: [
+        "Add Todo",
+        "Delete Todo",
+        "Archive",
+      ],
+      _id:  4
+    },
+    {
+      title: "Coffe Senja",
+      description: "Merupakan sebuah website yang menampilkan list product coffe, dan berbagai macan menu coffe",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/CoffeSenja.git",
+      demoLink: "https://app.netlify.com/sites/coffesenja/",
+      role: "Web Developer",
+      highlights: [
+        "Home",
+        "Product",
+        "Countact",
+        "Manu",
+      ],
+      _id:  5
+    },
+    {
+      title: "Coffe Senja",
+      description: "Merupakan sebuah website yang menampilkan list product coffe, dan berbagai macan menu coffe",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/CoffeSenja.git",
+      demoLink: "https://app.netlify.com/sites/coffesenja/",
+      role: "Web Developer",
+      highlights: [
+        "Home",
+        "Product",
+        "Countact",
+        "Manu",
+      ],
+      _id:  6
+    },
+    {
+      title: "Restourant",
+      description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
+        "Progresive Web Apps (PWA)",
+        "Image Loader",
+        "End to End Testing E2E"
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Restaurant-PWA-Testing-Performs.git",
+      demoLink: "https://mylovereto.netlify.app/",
+      role: "Web Developer",
+      highlights: [
+        "Explore Restourant",
+        "Favorit",
+        "Countact",
+        "Detail",
+      ],
+      _id:  6
+    },
+    {
+      title: "Restourant",
+      description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
+        "Progresive Web Apps (PWA)",
+        "Image Loader",
+        "End to End Testing E2E"
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Restaurant-PWA-Testing-Performs.git",
+      demoLink: "https://muvieslove.netlify.app/",
+      role: "Web Developer",
+      highlights: [
+        "Explore Restourant",
+        "Favorit",
+        "Countact",
+        "Detail",
+      ],
+      _id:  6
+    },
 ];
 router.get("/proyek", (req, res) => {
   res.send(proyekData);
