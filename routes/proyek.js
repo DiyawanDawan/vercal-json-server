@@ -128,7 +128,7 @@ const proyekData = [
       description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
+      image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
       technologies: [
         "JavaScript",
         "HTML5",
@@ -151,10 +151,10 @@ const proyekData = [
     },
     {
       title: "Muvie",
-      description: "Website restourant merupakan sebuah website yang menampilan beberapa list muvie dengn beberapa fitur seperti like muvie dan push notfikasi",
+      description: "Website muvie merupakan sebuah website yang menampilan beberapa list muvie dengn beberapa fitur seperti like muvie dan push notfikasi",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
+      image: "https://i.ibb.co.com/f4Fp76v/muviv-v1.png",
       technologies: [
         "JavaScript",
         "HTML5",
@@ -164,7 +164,7 @@ const proyekData = [
         "Image Loader",
         "End to End Testing E2E"
       ],
-      repositoryLink: "https://github.com/DiyawanDawan/Restaurant-PWA-Testing-Performs.git",
+      repositoryLink: "https://github.com/DiyawanDawan/Movie-Katalok-Testing.git",
       demoLink: "https://muvieslove.netlify.app/",
       role: "Web Developer",
       highlights: [
@@ -172,10 +172,31 @@ const proyekData = [
         "Upcaming",
         "Top Rated",
         "Detail",
-        "Notofikasi",
+        "Subscribe Push Notification",
         "Progresive Web Apps (PWA)",
       ],
-      _id:  6
+      _id:  7
+    },
+    {
+      title: "Clube Fedor",
+      description: "Clube Fedor merupakan webste simole untuk lahihan memahami konsep komponen pada html jan javascrip dan menampilkan pencarian clube",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/1m7pkVg/Macbook-Air-clubevedor-netlify-app.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Clube-Fedor",
+      demoLink: "https://clubevedor.netlify.app/",
+      role: "Web Developer",
+      highlights: [
+        "Card Clube",
+        "Search Clube",
+      ],
+      _id:  7
     },
 ];
 router.get("/proyek", (req, res) => {
