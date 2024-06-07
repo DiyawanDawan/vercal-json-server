@@ -28,7 +28,7 @@ const proyekData = [
         "Countact",
         "Detail",
       ],
-      _id:  6
+      _id:  1
     },
     {
       title: "Dashboard Data Analytics",
@@ -105,7 +105,7 @@ const proyekData = [
         "Countact",
         "Manu",
       ],
-      _id:  5
+      _id:  4
     },
 
     {
@@ -135,7 +135,7 @@ const proyekData = [
         "Subscribe Push Notification",
         "Progresive Web Apps (PWA)",
       ],
-      _id:  7
+      _id:  5
     },
     {
       title: "Hemo Life",
@@ -159,7 +159,7 @@ const proyekData = [
           "Find Blood Donation Schedules",
           "Become a volunteer Blood Donors",
         ],
-      _id: 1
+      _id: 6
       },
     {
       title: "TOTO LIST",
@@ -181,7 +181,7 @@ const proyekData = [
         "Delete Todo",
         "Archive",
       ],
-      _id:  4
+      _id:  7
     },
 
     {
@@ -204,7 +204,7 @@ const proyekData = [
         "Card Clube",
         "Search Clube",
       ],
-      _id:  7
+      _id:  8
     },
 ];
 router.get("/proyek", (req, res) => {
