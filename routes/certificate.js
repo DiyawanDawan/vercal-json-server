@@ -37,6 +37,20 @@ const certificatesData = [
     urlCredential: "https://coursera.org/verify/U23SH79P98Z4",
     image: "https://i.ibb.co.com/W25rCq5/Coursera-U23-SH79-P98-Z4.jpg"
   },
+  {
+    _id: 6,
+    name: "Belajar Fundamental Front-End Web Development",
+    penerbit: "Dicoding",
+    urlCredential: "https://www.dicoding.com/certificates/81P27QROQZOY",
+    image: "https://i.ibb.co.com/K0FjmNN/fundamental-front-end-1.jpg"
+  },
+  {
+    _id: 7,
+    name: "Menjadi Front-End Web Developer Expert",
+    penerbit: "Dicoding",
+    urlCredential: "https://www.dicoding.com/certificates/JLX1W8DQJP72",
+    image: "https://i.ibb.co.com/4phsQJD/Expert-1.jpg"
+  },
 
 ];
 
