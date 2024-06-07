@@ -25,7 +25,7 @@ const certificatesData = [
   },
   {
     _id: 4,
-    name: "Coursera HTML and CSS in depth",
+    name: "HTML and CSS in depth",
     penerbit: "Coursera at Meta",
     urlCredential: "https://coursera.org/verify/6K5S4MFCPAZF",
     image: "https://i.ibb.co.com/D9T4X86/Coursera-HTML-and-CSS-in-depth-DU73-KF7-YFZAQ.jpg"
