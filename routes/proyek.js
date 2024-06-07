@@ -2,29 +2,33 @@ const expess = require("express");
 const router = expess.Router();
 
 const proyekData = [
-  {
-    title: "Hemo Life",
-      description: "HemoLife : A Digital Blood Donation App That Makes It Easy and Convenient HemoLife is a digital blood donation app that makes it easy for you to find blood donors, find blood donation schedules, and volunteer Blood Donors.",
-      role: "Web Developer",
-      type: "Collaboration",
-      startDate: "0111-11-11",
-      endDate: "0001-11-11",
-      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
+
+    {
+      title: "Restourant",
+      description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
+      type: "Individual",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
       technologies: [
         "JavaScript",
-        "Botstrap",
+        "HTML5",
+        "CSS3",
         "WebPack",
-        "Chart.Js",
-        "PDF.js"
+        "Progresive Web Apps (PWA)",
+        "Image Loader",
+        "End to End Testing E2E"
       ],
-      repositoryLink: "http://localhost:3000/add-job",
-      demoLink: "http://localhost:3000/add-job",
+      repositoryLink: "https://github.com/DiyawanDawan/Restaurant-PWA-Testing-Performs.git",
+      demoLink: "https://mylovereto.netlify.app/",
+      role: "Web Developer",
       highlights: [
-        "Find Blood Donors",
-        "Find Blood Donation Schedules",
-        "Become a volunteer Blood Donors",
+        "Explore Restourant",
+        "Favorit",
+        "Countact",
+        "Detail",
       ],
-    _id: 1
+      _id:  6
     },
     {
       title: "Dashboard Data Analytics",
@@ -47,13 +51,14 @@ const proyekData = [
         "Dashboard Analytics",
         "Filter Data With Date and Type",
         "Download Data",
-        ""
+        "Char Analisa"
       ],
       _id:  2
     },
     {
       title: "Cynema",
       description: "Cynema merupakan sebuah proyek yang menampilkan list film dan acara TV, adapun data yangh di gunakan adalah open api dari omdb, website ini ada dua versi, yatu v1 menggunakan vanila javascript",
+      type: "Individual",
       startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co.com/0Y9WGyV/Technology-Pitch-Deck.png",
@@ -79,29 +84,9 @@ const proyekData = [
       _id:  3
     },
     {
-      title: "TOTO LIST",
-      description: "Todo list adalah sebuah website catetean sederhana yang dapat menyimpan list TODO di local storage browser ",
-      startDate: "0044-04-04",
-      endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/1vR4VXv/Brown-Simple-Digital-Marketing-Presentation.png",
-      technologies: [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-      ],
-      repositoryLink: "https://github.com/DiyawanDawan/Todo-Apps.git",
-      demoLink: "https://manajmentime.netlify.app/",
-      role: "Web Developer",
-      highlights: [
-        "Add Todo",
-        "Delete Todo",
-        "Archive",
-      ],
-      _id:  4
-    },
-    {
       title: "Coffe Senja",
-      description: "Merupakan sebuah website yang menampilkan list product coffe, dan berbagai macan menu coffe",
+      description: "Merupakan sebuah website yang menampilkan list product coffe, dan kontaklokasi dengan gogle maps dan berbagai macan menu coffe",
+      type: "Individual",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
@@ -122,36 +107,11 @@ const proyekData = [
       ],
       _id:  5
     },
- 
-    {
-      title: "Restourant",
-      description: "Website restourant merupakan sebuah website yang menampilan beberapa list restourant dengn beberapa fitur seperti like restouran explore restourant",
-       startDate: "0044-04-04",
-      endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/X82Hn5H/Resto.png",
-      technologies: [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "WebPack",
-        "Progresive Web Apps (PWA)",
-        "Image Loader",
-        "End to End Testing E2E"
-      ],
-      repositoryLink: "https://github.com/DiyawanDawan/Restaurant-PWA-Testing-Performs.git",
-      demoLink: "https://mylovereto.netlify.app/",
-      role: "Web Developer",
-      highlights: [
-        "Explore Restourant",
-        "Favorit",
-        "Countact",
-        "Detail",
-      ],
-      _id:  6
-    },
+
     {
       title: "Muvie",
       description: "Website muvie merupakan sebuah website yang menampilan beberapa list muvie dengn beberapa fitur seperti like muvie dan push notfikasi",
+      type: "Individual",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co.com/f4Fp76v/muviv-v1.png",
@@ -178,8 +138,56 @@ const proyekData = [
       _id:  7
     },
     {
+      title: "Hemo Life",
+        description: "HemoLife : A Digital Blood Donation App That Makes It Easy and Convenient HemoLife is a digital blood donation app that makes it easy for you to find blood donors, find blood donation schedules, and volunteer Blood Donors.",
+        role: "Web Developer",
+        type: "Collaboration",
+        startDate: "0111-11-11",
+        endDate: "0001-11-11",
+        image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
+        technologies: [
+          "JavaScript",
+          "Botstrap",
+          "WebPack",
+          "Chart.Js",
+          "PDF.js"
+        ],
+        repositoryLink: "http://localhost:3000/add-job",
+        demoLink: "http://localhost:3000/add-job",
+        highlights: [
+          "Find Blood Donors",
+          "Find Blood Donation Schedules",
+          "Become a volunteer Blood Donors",
+        ],
+      _id: 1
+      },
+    {
+      title: "TOTO LIST",
+      description: "Todo list adalah sebuah website catetean sederhana yang dapat menyimpan list TODO archive Todo di local storage browser ",
+      type: "Individual",
+      startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/1vR4VXv/Brown-Simple-Digital-Marketing-Presentation.png",
+      technologies: [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Todo-Apps.git",
+      demoLink: "https://manajmentime.netlify.app/",
+      role: "Web Developer",
+      highlights: [
+        "Add Todo",
+        "Delete Todo",
+        "Archive",
+      ],
+      _id:  4
+    },
+
+    {
       title: "Clube Fedor",
       description: "Clube Fedor merupakan webste simole untuk lahihan memahami konsep komponen pada html jan javascrip dan menampilkan pencarian clube",
+      type: "Individual",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
       image: "https://i.ibb.co.com/1m7pkVg/Macbook-Air-clubevedor-netlify-app.png",
