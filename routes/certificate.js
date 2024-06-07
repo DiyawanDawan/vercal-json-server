@@ -39,13 +39,20 @@ const certificatesData = [
   },
   {
     _id: 6,
+    name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+    penerbit: "Dicoding",
+    urlCredential: "https://www.dicoding.com/certificates/JMZV1Q65OXN9",
+    image: "https://i.ibb.co.com/KzVLfM2/backend-1.jpg"
+  },
+  {
+    _id: 7,
     name: "Belajar Fundamental Front-End Web Development",
     penerbit: "Dicoding",
     urlCredential: "https://www.dicoding.com/certificates/81P27QROQZOY",
     image: "https://i.ibb.co.com/K0FjmNN/fundamental-front-end-1.jpg"
   },
   {
-    _id: 7,
+    _id: 8,
     name: "Menjadi Front-End Web Developer Expert",
     penerbit: "Dicoding",
     urlCredential: "https://www.dicoding.com/certificates/JLX1W8DQJP72",
