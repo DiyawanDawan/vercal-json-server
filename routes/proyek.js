@@ -31,30 +31,30 @@ const proyekData = [
       _id:  1
     },
     {
-      title: "Dashboard Data Analytics",
-      description: "Website Analytics adalah sebuah website yang dimana membantu untuk mengalanisa data yang di dapatatkan dari sesnor ph dan nh3, website ini merupakan website dashboard IoT",
+      title: "Coffe Senja",
+      description: "Merupakan sebuah website yang menampilkan list product coffe, dan kontaklokasi dengan gogle maps dan berbagai macan menu coffe",
       type: "Individual",
-      startDate: "2024-06-10",
-      endDate: "2024-06-18",
-      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
       technologies: [
-        "Reac.js",
-        "Tailwincss",
-        "TaypeScript",
-        "Apex Chart"
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "WebPack",
       ],
-      repositoryLink: "http://localhost:3000/add-job",
-    demoLink: "http://localhost:3000/add-job",
+      repositoryLink: "https://github.com/DiyawanDawan/CoffeSenja.git",
+      demoLink: "https://app.netlify.com/sites/coffesenja/",
       role: "Web Developer",
       highlights: [
-        "Dashboard Analytics",
-        "Filter Data With Date and Type",
-        "Download Data",
-        "Char Analisa"
+        "Home",
+        "Product",
+        "Countact",
+        "Manu",
       ],
       _id:  2
     },
+ 
     {
       title: "Cynema",
       description: "Cynema merupakan sebuah proyek yang menampilkan list film dan acara TV, adapun data yangh di gunakan adalah open api dari omdb, website ini ada dua versi, yatu v1 menggunakan vanila javascript",
@@ -84,26 +84,27 @@ const proyekData = [
       _id:  3
     },
     {
-      title: "Coffe Senja",
-      description: "Merupakan sebuah website yang menampilkan list product coffe, dan kontaklokasi dengan gogle maps dan berbagai macan menu coffe",
+      title: "Dashboard Data Analytics",
+      description: "Website Analytics adalah sebuah website yang dimana membantu untuk mengalanisa data yang di dapatatkan dari sesnor ph dan nh3, website ini merupakan website dashboard IoT",
       type: "Individual",
-       startDate: "0044-04-04",
-      endDate: "0004-04-04",
-      image: "https://i.ibb.co.com/09c4sqy/Technology-Pitch-Deck-1.png",
+      startDate: "2024-06-10",
+      endDate: "2024-06-18",
+      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
+      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
       technologies: [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "WebPack",
+        "Reac.js",
+        "Tailwincss",
+        "TaypeScript",
+        "Apex Chart"
       ],
-      repositoryLink: "https://github.com/DiyawanDawan/CoffeSenja.git",
-      demoLink: "https://app.netlify.com/sites/coffesenja/",
+      repositoryLink: "http://localhost:3000/add-job",
+    demoLink: "http://localhost:3000/add-job",
       role: "Web Developer",
       highlights: [
-        "Home",
-        "Product",
-        "Countact",
-        "Manu",
+        "Dashboard Analytics",
+        "Filter Data With Date and Type",
+        "Download Data",
+        "Char Analisa"
       ],
       _id:  4
     },
