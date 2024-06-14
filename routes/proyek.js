@@ -239,8 +239,8 @@ const proyekData = [
         "HTML5",
         "CSS3",
       ],
-      repositoryLink: "https://github.com/DiyawanDawan/Sunmishion-Dasar-Perograman-Web.git",
-      demoLink: "https://diyawandawan.github.io/Sunmishion-Dasar-Perograman-Web/",
+      repositoryLink: "https://github.com/DiyawanDawan/StartMas-copamy-profile.git",
+      demoLink: "https://diyawandawan.github.io/StartMas-copamy-profile/",
       role: "Web Developer",
       highlights: [
         "Home",
@@ -250,7 +250,26 @@ const proyekData = [
         "Gallery",
         "Footer"
       ],
-      _id:  9
+      _id:  10
+    },
+    {
+      title: "SUXZMAKEITEASY Company Profile",
+      description: "Merupakan sebuah website company profile sederhana yang menampilkan heder card services dan memiliki satu halaman",
+       type: "Individual",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co/qdB2ZYc/Screenshot-213.png",
+      technologies: [
+        "HTML5",
+        "CSS3",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Project-Suxz-Company-Profile.git",
+      demoLink: "https://diyawandawan.github.io/Project-Suxz-Company-Profile/",
+      role: "Web Developer",
+      highlights: [
+        "Home", "Learnings", "About Us", "Testimonial"
+      ],
+      _id:  11
     },
 ];
 router.get("/proyek", (req, res) => {
