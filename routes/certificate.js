@@ -76,7 +76,7 @@ const certificatesData = [
     _id: 11,
     name: "FOOD & BEVERAGE PRODUCT AS COOK HELPER",
     penerbit: "JM HOTEL KUTA LOMBOK",
-    urlCredential: "",
+    urlCredential: "https://drive.google.com/file/d/1y1hSvHU_Osev65b85_A--3NzWWJCpfYX/view",
     image: "https://i.ibb.co/1Rvnd7X/sertif-magang.jpg"
   },
 
