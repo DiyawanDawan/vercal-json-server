@@ -206,6 +206,52 @@ const proyekData = [
       ],
       _id:  8
     },
+
+    {
+      title: "Website Portal",
+      description: "Terdapat elemen <header>, <footer>, <main>, <article>, dan <aside> di berkas HTML. Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website). Contohnya: Tidak terdapat duplikasi elemen <main>. Elemen <main> harus berada diantara <header> dan <footer>. Harus terdapat elemen <header> sebelum <main> dan <footer> sesudah <main> Jika terdapat elemen <header> atau <footer> di dalam elemen <article> atau <aside>, maka hal tersebut diperbolehkan.",
+      type: "Individual",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co/qdB2ZYc/Screenshot-213.png",
+      technologies: [
+        "HTML5",
+        "CSS3",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Sunmishion-Dasar-Perograman-Web.git",
+      demoLink: "https://diyawandawan.github.io/Sunmishion-Dasar-Perograman-Web/",
+      role: "Web Developer",
+      highlights: [
+        "Header",
+        "List Card",
+        "Aside",
+      ],
+      _id:  9
+    },
+    {
+      title: "StartMas Company Profile",
+      description: "Merupakan sebuah website company profile sederhana yang menampilkan heder card services dan memiliki satu halaman",
+       type: "Individual",
+       startDate: "0044-04-04",
+      endDate: "0004-04-04",
+      image: "https://i.ibb.co/qdB2ZYc/Screenshot-213.png",
+      technologies: [
+        "HTML5",
+        "CSS3",
+      ],
+      repositoryLink: "https://github.com/DiyawanDawan/Sunmishion-Dasar-Perograman-Web.git",
+      demoLink: "https://diyawandawan.github.io/Sunmishion-Dasar-Perograman-Web/",
+      role: "Web Developer",
+      highlights: [
+        "Home",
+        "About Us",
+        "Package",
+        "Facilities",
+        "Gallery",
+        "Footer"
+      ],
+      _id:  9
+    },
 ];
 router.get("/proyek", (req, res) => {
   res.send(proyekData);
