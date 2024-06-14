@@ -89,16 +89,15 @@ const proyekData = [
       type: "Individual",
       startDate: "2024-06-10",
       endDate: "2024-06-18",
-      image: "https://i.ibb.co/VpLHP6D/pic-tshirt.png",
-      image: "https://i.ibb.co.com/f2d7s9t/1705212743743-1.jpg",
+      image: "https://i.ibb.co/Pjb66y5/Screenshot-196.png",
       technologies: [
         "Reac.js",
         "Tailwincss",
         "TaypeScript",
         "Apex Chart"
       ],
-      repositoryLink: "http://localhost:3000/add-job",
-    demoLink: "http://localhost:3000/add-job",
+      repositoryLink: "https://github.com/DiyawanDawan/Web-Bumiku.git",
+    demoLink: "https://github.com/DiyawanDawan/Web-Bumiku.git",
       role: "Web Developer",
       highlights: [
         "Dashboard Analytics",
@@ -153,8 +152,8 @@ const proyekData = [
           "Chart.Js",
           "PDF.js"
         ],
-        repositoryLink: "http://localhost:3000/add-job",
-        demoLink: "http://localhost:3000/add-job",
+        repositoryLink: "https://github.com/DiyawanDawan/front-end-hemolife.git",
+        demoLink: "http://hemolife.my.id",
         highlights: [
           "Find Blood Donors",
           "Find Blood Donation Schedules",
