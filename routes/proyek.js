@@ -234,7 +234,7 @@ const proyekData = [
        type: "Individual",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
-      image: "https://i.ibb.co/qdB2ZYc/Screenshot-213.png",
+      image: "https://i.ibb.co/xhRRhnQ/Screenshot-214.png",
       technologies: [
         "HTML5",
         "CSS3",
@@ -258,7 +258,7 @@ const proyekData = [
        type: "Individual",
        startDate: "0044-04-04",
       endDate: "0004-04-04",
-      image: "https://i.ibb.co/qdB2ZYc/Screenshot-213.png",
+      image: "https://i.ibb.co/7XBtkby/Screenshot-215.png",
       technologies: [
         "HTML5",
         "CSS3",
