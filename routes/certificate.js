@@ -58,6 +58,27 @@ const certificatesData = [
     urlCredential: "https://www.dicoding.com/certificates/JLX1W8DQJP72",
     image: "https://i.ibb.co.com/4phsQJD/Expert-1.jpg"
   },
+  {
+    _id: 9,
+    name: "Front-End dan Back-End (FEBE) SIB Dicoding X Kampus Meradeka 5",
+    penerbit: "Dicoding",
+    urlCredential: "https://www.dicoding.com/certificates/DCD/SIB5/GRAND/XX/III-12/F432YA157",
+    image: "https://i.ibb.co/fqkVwnX/SIB-Cycle-5-Sertifikat-F432-YA157-images-1.jpg"
+  },
+  {
+    _id: 10,
+    name: "Program Pertukaran Mahasiswa Merdeka (PMM 2)",
+    penerbit: "Kampus Merdeka",
+    urlCredential: "https://drive.google.com/file/d/1OuTkYB0HTzXSQ0xzHCQaxuQ8Gd2jbJv2/view",
+    image: "https://i.ibb.co/djsxTLY/serifikatpmm2.jpg"
+  },
+  {
+    _id: 11,
+    name: "FOOD & BEVERAGE PRODUCT AS COOK HELPER",
+    penerbit: "JM HOTEL KUTA LOMBOK",
+    urlCredential: "https://drive.google.com/file/d/1y1hSvHU_Osev65b85_A--3NzWWJCpfYX/view",
+    image: "https://i.ibb.co/1Rvnd7X/sertif-magang.jpg"
+  },
 
 ];
 
